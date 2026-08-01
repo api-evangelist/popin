@@ -1,7 +1,24 @@
 aid: popin
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/popin.png
 name: Pop.in
-description: Pop.in is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Pop.in is a consumer social gaming platform that connects people through
+  real-time multiplayer games including Spades, Hearts, Dominoes, Liar's Dice, crosswords,
+  Pop Quiz trivia, and Just Chatting. Delivered as iOS and Android apps plus a web
+  play surface at play.pop.in, the service reports over 100M downloads and 20M active
+  users with a 4.75+ average rating. The company is backed by 500 Global and was surfaced
+  through its portfolio; it operates a purely consumer-facing product and publishes
+  no public developer, API, or documentation surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/popin/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Social
+- Gaming
+- Multiplayer
+- Mobile
+- Consumer
+- Entertainment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,16 @@ maintainers:
 common:
 - type: Website
   url: https://pop.in
+- type: SignUp
+  url: https://play.pop.in
+- type: TermsOfService
+  url: https://pop.in/terms
+- type: PrivacyPolicy
+  url: https://pop.in/privacy
+- type: DomainSecurity
+  url: security/popin-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
